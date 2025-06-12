@@ -1,7 +1,7 @@
 { stateVersion, user, ... }:
 {
   imports = [
-    ./modules
+    # ./config
     ./home-packages.nix
   ];
 
