@@ -5,4 +5,6 @@
   nixpkgs.config.allowUnfree = true;
 
   system.stateVersion = stateVersion;
+
+  services.flatpak.enable = true;
 }
