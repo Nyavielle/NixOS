@@ -5,10 +5,7 @@
     allowedTCPPorts = [ 22 ];
     allowedUDPPorts = [];
 
-    allowedICMPTypes = [];
-
-    logAllowed = false;
-    logDropped = true;
+    allowPing = false;
 
     checkReversePath = true;
   };
