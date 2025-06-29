@@ -17,11 +17,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    stylix = {
-      url = "github:nix-community/stylix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     astronvim = {
       url = "github:AstroNvim/template";
       flake = false;
@@ -29,7 +24,7 @@
     
   }; # inputs
 
-  outputs = { self, nixpkgs, nur, home-manager, stylix, astronvim, ... } @inputs: let
+  outputs = { self, nixpkgs, nur, home-manager, astronvim, ... } @inputs: let
   
     user = "Nyavielle";
 
