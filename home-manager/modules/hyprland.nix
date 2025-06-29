@@ -9,6 +9,7 @@ env = HYPRCURSOR_SIZE, 24
 
 ### Autostart ###
 exec-once = hyprpaper
+exec-once = waybar
 
 ### General ###
 general {

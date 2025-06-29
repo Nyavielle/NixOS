@@ -8,5 +8,7 @@
     ./hyprpaper.nix
     ./nvim.nix
     ./starship.nix
+    ./waybar.nix
+    ./wofi.nix
   ];
 }
