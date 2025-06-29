@@ -47,13 +47,13 @@
       };
       
       modules = [
-        ./hosts/${hostname}
+        ./hosts/${hostname}/modules
 
         home-manager.nixosModules.home-manager {
           home-manager = {
             useGlobalPkgs = false;
             useUserPackages = true;
-            users.${user} = ./home-manager/home.nix;
+            users.${user} = ./hosts/${hostname}/home-manager/home.nix;
             extraSpecialArgs = {
               inherit inputs user hostname stateVersion pkgs;
             };
