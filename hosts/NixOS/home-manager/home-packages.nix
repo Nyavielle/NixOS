@@ -3,22 +3,24 @@
   home.packages = with pkgs; [
     # Desktop environment
     alacritty
+    brightnessctl
     grim
     hypridle
     hyprland
     hyprlock
     hyprpaper
     hyprpicker
+    libnotify
+    libsForQt5.xwaylandvideobridge
+    papirus-icon-theme
+    playerctl
     slurp
     starship
     waybar
     wl-clipboard
     wofi
-    libsForQt5.xwaylandvideobridge
-    libnotify
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
-    papirus-icon-theme
 
     # Desktop apps
     bitwarden-desktop

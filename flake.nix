@@ -31,7 +31,9 @@
     pkgs = import nixpkgs {
       system = "x86_64-linux";
       config.allowUnfree = true;
-      overlays = [ nur.overlays.default ];
+      overlays = [
+        nur.overlays.default
+      ];
     };
 
     hosts = [
